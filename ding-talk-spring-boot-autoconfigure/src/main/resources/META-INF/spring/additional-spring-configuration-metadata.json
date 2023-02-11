@@ -1,0 +1,24 @@
+{
+  "properties": [
+    {
+      "name": "com.ugrong.dingtalk.enabled",
+      "type": "java.lang.Boolean",
+      "defaultValue": true,
+      "sourceType": "com.ugrong.framework.robot.properties.DingTalkProperties",
+      "description": "是否启用钉钉通知，默认启用."
+    },
+    {
+      "name": "com.ugrong.dingtalk.url",
+      "type": "java.lang.String",
+      "defaultValue": "https://oapi.dingtalk.com",
+      "sourceType": "com.ugrong.framework.robot.properties.DingTalkProperties",
+      "description": "钉钉接口URL."
+    },
+    {
+      "name": "com.ugrong.dingtalk.robots",
+      "type": "java.util.Map<java.lang.String,com.ugrong.framework.robot.properties.DingTalkRobotProperties>",
+      "sourceType": "com.ugrong.framework.robot.properties.DingTalkProperties",
+      "description": "钉钉机器人配置信息."
+    }
+  ]
+}

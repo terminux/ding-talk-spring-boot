@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+com:
+  ugrong:
+    dingtalk:
+      enabled: true
+      url: 'https://oapi.dingtalk.com'
+      robots:
+        robot1:
+          enable-sign: true
+          access-token: 'accessToken1'
+          secret: 'secret1'
+        robot2:
+          enable-sign: true
+          access-token: 'accessToken2'
+          secret: 'secret2'
+
+logging:
+  level:
+    org:
+      springframework:
+        web: debug

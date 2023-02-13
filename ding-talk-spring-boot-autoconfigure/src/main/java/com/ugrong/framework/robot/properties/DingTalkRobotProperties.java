@@ -7,7 +7,6 @@ public class DingTalkRobotProperties {
      */
     private String accessToken;
 
-
     /**
      * 安全策略是否启用了加签
      */

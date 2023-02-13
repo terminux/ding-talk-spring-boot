@@ -23,7 +23,6 @@
         <spring-boot.version>3.0.2</spring-boot.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <apache-commons-lang3.version>3.12.0</apache-commons-lang3.version>
-        <lombok.version>1.18.26</lombok.version>
         <commons-codec.version>1.15</commons-codec.version>
     </properties>
 
@@ -74,16 +73,6 @@
             </dependency>
 
             <!-- apache commons end -->
-
-            <!-- other third dependencies start -->
-
-            <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
-            </dependency>
-
-            <!-- other third dependencies end -->
 
         </dependencies>
     </dependencyManagement>

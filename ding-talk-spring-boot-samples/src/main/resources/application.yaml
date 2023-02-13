@@ -8,12 +8,12 @@ com:
       url: 'https://oapi.dingtalk.com'
       robots:
         robot1:
-          enable-sign: true
           access-token: 'accessToken1'
+          enable-sign: true
           secret: 'secret1'
         robot2:
-          enable-sign: true
           access-token: 'accessToken2'
+          enable-sign: true
           secret: 'secret2'
 
 logging:

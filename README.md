@@ -37,10 +37,10 @@ com:
   ugrong:
     dingtalk:
       robots:
-        default:
-          enable-sign: true
-          access-token: 'your accessToken'
-          secret: 'your secret'
+        default: # 自定义的机器人ID
+          access-token: 'your accessToken' # 机器人accessToken
+          enable-sign: true # 安全策略是否启用了加签
+          secret: 'your secret' # 用于验签的secret，若没有启用加签则不需要设置
 ```
 
 ### 开始使用
@@ -178,12 +178,12 @@ com:
     dingtalk:
       robots:
         robot1:
-          enable-sign: true
           access-token: 'accessToken1'
+          enable-sign: true
           secret: 'secret1'
         robot2:
-          enable-sign: true
           access-token: 'accessToken2'
+          enable-sign: true
           secret: 'secret2'
 ```
 
